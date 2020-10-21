@@ -1,0 +1,17 @@
+{
+  "name": "uhg/bb_twig_extensions",
+  "description": "Box Billing Twig Extensions",
+  "require": {
+    "twig/twig": "3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Main\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
