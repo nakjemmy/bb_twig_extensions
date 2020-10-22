@@ -1,7 +1,6 @@
 <?php
 
-namespace Main;
-
+namespace Uhg;
 
 class BoxBillingAddonsExtensions extends \Twig\Extension\AbstractExtension
 {
