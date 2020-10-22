@@ -1,6 +1,7 @@
 {
   "name": "uhg/bb_twig_extensions",
   "description": "Box Billing Twig Extensions",
+  "license": "MIT",
   "require": {
     "twig/twig": "3.0"
   },
