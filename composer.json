@@ -3,7 +3,8 @@
   "description": "Box Billing Twig Extensions",
   "license": "MIT",
   "require": {
-    "twig/twig": "v2.13.0"
+    "twig/twig": "v2.13.0",
+    "nesbot/carbon": "^2.41"
   },
   "autoload": {
     "psr-4": {

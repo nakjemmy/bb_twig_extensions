@@ -2,6 +2,8 @@
 
 namespace Uhg;
 
+use \Carbon\Carbon;
+
 class BoxBillingAddonsExtensions extends \Twig\Extension\AbstractExtension
 {
     /**
@@ -69,6 +71,12 @@ class BoxBillingAddonsExtensions extends \Twig\Extension\AbstractExtension
             return false;
         });
 
+
+
+        // Add Carbon parse
+        $functions[] = new \Twig\TwigFunction("uhg_carbon_parse", function ($date_string) {
+            return Carbon::parse($date_string);
+        });
 
 
 
