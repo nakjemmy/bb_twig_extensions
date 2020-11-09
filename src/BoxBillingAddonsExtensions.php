@@ -7,42 +7,6 @@ use \Carbon\Carbon;
 class BoxBillingAddonsExtensions extends \Twig\Extension\AbstractExtension
 {
     /**
-     * Returns the token parser instances to add to the existing list.
-     *
-     * @return \Twig\TokenParser\TokenParserInterface[]
-     */
-    public function getTokenParsers()
-    {
-    }
-
-    /**
-     * Returns the node visitor instances to add to the existing list.
-     *
-     * @return \Twig\NodeVisitor\NodeVisitorInterface[]
-     */
-    public function getNodeVisitors()
-    {
-    }
-
-    /**
-     * Returns a list of filters to add to the existing list.
-     *
-     * @return \Twig\TwigFilter[]
-     */
-    public function getFilters()
-    {
-    }
-
-    /**
-     * Returns a list of tests to add to the existing list.
-     *
-     * @return \Twig\TwigTest[]
-     */
-    public function getTests()
-    {
-    }
-
-    /**
      * Returns a list of functions to add to the existing list.
      *
      * @return \Twig\TwigFunction[]
@@ -81,14 +45,5 @@ class BoxBillingAddonsExtensions extends \Twig\Extension\AbstractExtension
 
 
         return $functions;
-    }
-
-    /**
-     * Returns a list of operators to add to the existing list.
-     *
-     * @return array<array> First array of unary operators, second array of binary operators
-     */
-    public function getOperators()
-    {
     }
 }
